@@ -6,9 +6,20 @@ import javafx.scene.control.TextField;
 
 public class DescontoController {
 
-    @FXML private TextField txtArroz, txtFeijao, txtOleo, txtAcucar, txtCafe;
-    @FXML private TextField txtMacarrao, txtFarinha, txtFuba, txtMolho, txtSal;
-    @FXML private Label lblSubtotal, lblTotalFinal, lblStatus;
+    @FXML private TextField txtArroz;
+    @FXML private TextField txtFeijao;
+    @FXML private TextField txtOleo;
+    @FXML private TextField txtAcucar;
+    @FXML private TextField txtCafe;
+    @FXML private TextField txtMacarrao;
+    @FXML private TextField txtFarinha;
+    @FXML private TextField txtFuba;
+    @FXML private TextField txtMolho;
+    @FXML private TextField txtSal;
+
+    @FXML private Label lblSubtotal;
+    @FXML private Label lblTotalFinal;
+    @FXML private Label lblStatus;
 
     @FXML
     private void onCalcularClick() {
