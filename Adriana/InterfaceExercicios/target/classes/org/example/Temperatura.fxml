@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="606.0" style="-fx-background-color: #d0b7d1;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.TemperaturaController">
+   <children>
+      <AnchorPane layoutX="90.0" layoutY="54.0" prefHeight="318.0" prefWidth="428.0" style="-fx-background-color: #898989;">
+         <children>
+            <Button layoutX="133.0" layoutY="143.0" mnemonicParsing="false" onAction="#onGerarRelatorioClick" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #77DD77;" text="Gerar Relatório">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="162.0" layoutY="259.0" prefHeight="39.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane layoutX="-149.0" layoutY="-14.0" prefHeight="28.0" prefWidth="407.0" style="-fx-background-color: #FFFAFC;">
+                     <children>
+                        <Label fx:id="lblMediaAnual" alignment="CENTER" layoutX="-1.0" layoutY="2.0" prefHeight="25.0" prefWidth="407.0" text="A média anual vai aparecer aqui" textAlignment="CENTER">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children></AnchorPane>
+            <TextArea fx:id="txtAreaRelatorio" layoutX="10.0" layoutY="42.0" prefHeight="45.0" prefWidth="407.0" promptText="Insira &quot;Gerar&quot; para calcular média anual " scrollLeft="20.0" style="-fx-background-color: #FFFAFC;">
+               <font>
+                  <Font size="15.0" />
+               </font></TextArea>
+         </children>
+      </AnchorPane>
+      <Label fx:id="title" layoutX="230.0" layoutY="14.0" text="Temperatura">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
