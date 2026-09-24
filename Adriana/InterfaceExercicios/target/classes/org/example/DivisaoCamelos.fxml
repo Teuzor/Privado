@@ -10,7 +10,7 @@
    <children>
       <AnchorPane layoutX="90.0" layoutY="54.0" prefHeight="318.0" prefWidth="428.0" style="-fx-background-color: #898989;">
          <children>
-            <Button layoutX="145.0" layoutY="92.0" mnemonicParsing="false" onAction="#onCalcularClick" prefHeight="48.0" prefWidth="138.0" style="-fx-background-color: #77DD77;" text="Calcular">
+            <Button layoutX="145.0" layoutY="90.0" mnemonicParsing="false" onAction="#onCalcularClick" prefHeight="48.0" prefWidth="138.0" style="-fx-background-color: #77DD77;" text="Calcular">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -22,7 +22,7 @@
             </TextField>
             <AnchorPane layoutX="34.0" layoutY="165.0" prefHeight="35.0" prefWidth="360.0" style="-fx-background-color: #FFFAFC;">
                <children>
-                  <Label fx:id="lblIrmao1" alignment="CENTER" prefHeight="39.0" prefWidth="360.0" text="Herança do primeiro irmão" textAlignment="CENTER">
+                  <Label fx:id="lblIrmao1" alignment="CENTER" prefHeight="39.0" prefWidth="360.0" style="-fx-background-color: #FFFAFC;" text="Herança do primeiro irmão" textAlignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -31,7 +31,7 @@
             </AnchorPane>
             <AnchorPane layoutX="35.0" layoutY="262.0" prefHeight="35.0" prefWidth="360.0" style="-fx-background-color: #FFFAFC;">
                <children>
-                  <Label fx:id="lblIrmao3" alignment="CENTER" layoutY="-2.0" prefHeight="39.0" prefWidth="360.0" text="Herança do terceiro irmão" textAlignment="CENTER">
+                  <Label fx:id="lblIrmao3" alignment="CENTER" layoutY="-2.0" prefHeight="39.0" prefWidth="360.0" style="-fx-background-color: #FFFAFC;" text="Herança do terceiro irmão" textAlignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -40,7 +40,7 @@
             </AnchorPane>
             <AnchorPane layoutX="34.0" layoutY="216.0" prefHeight="35.0" prefWidth="360.0" style="-fx-background-color: #FFFAFC;">
                <children>
-                  <Label fx:id="lblIrmao2" alignment="CENTER" layoutY="-2.0" prefHeight="39.0" prefWidth="360.0" text="Herança do segundo irmão" textAlignment="CENTER">
+                  <Label fx:id="lblIrmao2" alignment="CENTER" layoutY="-2.0" prefHeight="39.0" prefWidth="360.0" style="-fx-background-color: #FFFAFC;" text="Herança do segundo irmão" textAlignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
